@@ -1,0 +1,51 @@
+.author {
+    color: white;
+}
+
+.love {
+    color: red;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    margin-bottom: 100px!important; /* Margin bottom by footer height */
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px; /* Set the fixed height of the footer here */
+    background-color: #343a40;
+  }
+  
+  
+  /* Custom page CSS
+   * Not required for template or sticky footer method.
+   * -------------------------------------------------- */
+  
+  body > .container {
+    padding: 100px 15px 0;
+  }
+  .container .text-muted {
+    margin: 20px 0;
+  }
+  
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .carousel-image {
+      color: black!important;
+  }
+
+  .recent-posts {
+      margin-left: 50px;
+  }
+
+  .contact {
+    margin-left: 50px;
+}
